@@ -9,7 +9,7 @@ Shdr is an online ESSL (GLSL) shader editor, viewer and validator powered by Web
 Inspired by MrDoob's live HTML editor.  
 Powered by Three.js, Ace.js, RawDeflate.js and jQuery.  
 Icons by AwesomeFont, Monkey head from Blender, HexMKII from HexGL.
-Modified by Dario Ostuni in order to use WebGL 2
+Modified by Dario Ostuni in order to use WebGL 2.
 
 Issues, feature requests, contributions:
 [Fork me on GitHub!](https://github.com/BKcore/Shdr)
