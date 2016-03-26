@@ -7,7 +7,7 @@
       name: 'Cube'
     },
     'models/sphere.js': {
-      name: 'Shere'
+      name: 'Sphere'
     },
     'models/torus.js': {
       name: 'Torus'
