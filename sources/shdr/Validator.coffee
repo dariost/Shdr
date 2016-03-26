@@ -8,8 +8,8 @@ class Validator
     if not @canvas
       @canvas = document.createElement('Canvas')
     try
-      @context = canvas.getContext("webgl") or 
-        @canvas.getContext("experimental-webgl")
+      @context = canvas.getContext("webgl2") or 
+        @canvas.getContext("experimental-webgl2")
     catch e
       console.log e
     if not @context

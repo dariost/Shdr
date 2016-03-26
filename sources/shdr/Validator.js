@@ -15,7 +15,7 @@
         this.canvas = document.createElement('Canvas');
       }
       try {
-        this.context = canvas.getContext("webgl") || this.canvas.getContext("experimental-webgl");
+        this.context = canvas.getContext("webgl2") || this.canvas.getContext("experimental-webgl2");
       } catch (e) {
         console.log(e);
       }
