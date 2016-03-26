@@ -7439,7 +7439,7 @@ THREE.WebGLRenderer = function ( parameters ) {
 
 		try {
 
-			if ( ! ( _gl = _canvas.getContext( 'experimental-webgl2', { alpha: _alpha, premultipliedAlpha: _premultipliedAlpha, antialias: _antialias, stencil: _stencil, preserveDrawingBuffer: _preserveDrawingBuffer } ) ) ) {
+			if ( ! ( _gl = _canvas.getContext( 'webgl2', { alpha: _alpha, premultipliedAlpha: _premultipliedAlpha, antialias: _antialias, stencil: _stencil, preserveDrawingBuffer: _preserveDrawingBuffer } ) ) ) {
 
 				throw 'Error creating WebGL context.';
 
